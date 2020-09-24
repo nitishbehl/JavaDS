@@ -1,5 +1,7 @@
 
 public class Node {
+    LinkedList n1;
+    LinkedList n2;
 
     int data;
     Node next;
@@ -9,3 +11,4 @@ public class Node {
         next = null;
     }
 }
+

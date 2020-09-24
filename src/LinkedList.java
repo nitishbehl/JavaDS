@@ -6,6 +6,7 @@ public class LinkedList {
         this.head = head;
     }
 
+
     public static void main(String[] args) {
         Node head = new Node(1);
 
@@ -51,6 +52,7 @@ public class LinkedList {
         //System.out.println("\nLinked List after Deletion at position 4:");
         //linkedList.printList();
     }
+
 
     public void insert(int data) {
         Node node = new Node(data);
@@ -256,7 +258,10 @@ public class LinkedList {
         }
         return 0;
     }
-
 }
+
+
+
+
 
 
