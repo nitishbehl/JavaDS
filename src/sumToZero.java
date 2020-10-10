@@ -2,24 +2,21 @@ public class sumToZero {
     public static int[] sumZero(int n) {
         int remainder = n % 2;
         int possitive = n / 2;
-        int a[] = new int[n];
-        if (remainder == 0) {
-            for (int i = 0; i < n; i++) {
-                a[i] = possitive--;
-                if (a[i] == 0) {
-                    a[i] = possitive--;
+        int arr[] = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = possitive--;
+            if (remainder == 0) {
+                if (arr[i] == 0) {
+                    arr[i] = possitive--;
                 }
             }
-        } else {
-            for (int i = 0; i < n; i++) {
-                a[i] = possitive--;
-            }
         }
-        return a;
+        return arr;
     }
 
     public static void main(String[] args) {
-        int num = 5;
+        int num = 6;
         int[] arr = sumZero(num);
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]);

@@ -14,7 +14,7 @@ public class EvenNumberOfDigit {
     }
 
     public static void main(String[] args) {
-        int[] input = {437, 315, 322, 431, 686, 264, 442};
+        int[] input = {7, 31, 3, 431, 26, 442};
         System.out.println(findNumbers(input));
     }
 }
