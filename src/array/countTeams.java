@@ -1,3 +1,5 @@
+package array;
+
 public class countTeams {
     public static int numTeams(int[] rating) {
         int teams = 0;
