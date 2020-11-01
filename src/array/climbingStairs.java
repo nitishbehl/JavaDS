@@ -9,7 +9,7 @@ public class climbingStairs {
     }
 
     public static void main(String[] args) {
-        int[] arr = {10, 15, 20};
+        int[] arr = {1, 100, 1, 1, 1, 100, 1, 1, 100, 1};
         System.out.println(minCostClimbingStairs(arr));
 
     }
